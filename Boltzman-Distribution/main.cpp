@@ -211,14 +211,17 @@ int main()
 		
 		simulation();
 		
+
+		number[r].Delete();
 		name = to_string(cell_value[r]) + ".png";
 		number[r] = { name.c_str(), GL_TEXTURE_2D, GL_TEXTURE0, GL_RGBA, GL_UNSIGNED_BYTE };
 		number[r].texUnit(shaderProgram, "tex0", 0);
 
+		number[a].Delete();
 		name = to_string(cell_value[a]) + ".png";
 		number[a] = { name.c_str(), GL_TEXTURE_2D, GL_TEXTURE0, GL_RGBA, GL_UNSIGNED_BYTE };
 		number[a].texUnit(shaderProgram, "tex0", 0);
-		if (i > 30000)
+		if (i > 3000000)
 		{
 			break;
 		}

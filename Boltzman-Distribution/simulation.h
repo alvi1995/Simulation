@@ -128,7 +128,7 @@ void simulation()
 	delete[]active_cell_list;
 	if (check_validity(cell_value))
 	{
-		std::cout << "1";
+		//std::cout << "1";
 	}
 	else
 	{
