@@ -1,5 +1,5 @@
 # Simulation
-Heat transfer and Fluid Simulation
+Boltzman Distribution
 
 
 ![Simulation](Boltzman-Distribution/screenshot.jpg)
